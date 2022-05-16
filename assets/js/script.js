@@ -29,8 +29,8 @@ function getOneCall(lat, lon) {
         .addClass("card-title")
         .text(data.current.temp);
 
-        //added
-      var currentUvi = $("<h2>").addClass("card-title").text(data.current.Uvi);
+      //added
+      var currentUvi = $("<h2>").addClass("card-title").text(data.current.uvi);
 
       $("#weather-main").append(weatherCard.append(currentTemp));
       //added
